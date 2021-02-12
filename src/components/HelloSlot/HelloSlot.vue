@@ -1,7 +1,6 @@
 <template>
     <div>
         <div>HelloSlot</div>
-        <slot v-for="item in list" :item="item"></slot>
     </div>
 </template>
 

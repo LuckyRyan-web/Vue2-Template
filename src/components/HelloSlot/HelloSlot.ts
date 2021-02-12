@@ -1,4 +1,4 @@
-import { Component, Prop, Vue } from 'vue-property-decorator'
+import { Component, Prop, Vue, Inject } from 'vue-property-decorator'
 import template from './HelloSlot.vue'
 
 @Component({
@@ -11,4 +11,7 @@ export default class HelloSlot extends Vue {
 
     @Prop({ default: '' })
     protected msg!: string
+
+    // @Prop({ default: '' })
+    // protected count!: number
 }

@@ -9,17 +9,7 @@
             <template #footer>
                 footer
             </template>
-            <!-- <div slot="header">
-                header
-            </div>
-            <div slot="footer">
-                footer
-            </div> -->
         </hello-world>
-
-        <hello-slot v-slot="slotProps">
-            <div>{{ slotProps }}</div>
-        </hello-slot>
     </div>
 </template>
 
