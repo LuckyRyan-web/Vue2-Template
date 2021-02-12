@@ -1,29 +1,17 @@
-# ts_stu
+## 目录结构
 
-## Project setup
 ```
-yarn install
+├─src
+│  ├─assets
+│  ├─constants  -- 存放枚举
+│  ├─router
+│  ├─store
+│  ├─typings    -- 存放类型
+│  │  └─modules
+│  ├─utils      -- 存放工具类
+│  │  └─directives  -- 存放全局指令
+│  └─views
+│      └─Home
+└─tests         -- 测试模块
+    └─unit
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
